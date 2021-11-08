@@ -1,0 +1,9 @@
+.container {
+  background-image: url("images/classroom.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  height: 740px;
+}
+body {
+  background-color: #1a1aff;
+}
