@@ -10,6 +10,7 @@
     <title>XYZ College College of Technology - Home Page</title>
 </head>
 <body>
+    <!-- Navigation bar -->
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <a class="navbar-brand" href="#"><img src="images/logo.jpeg" height="50" width="50" alt=""> XYZ  College of Technology</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
@@ -37,16 +38,76 @@
         </div>
     </nav><!-- end of navbar -->
 
-    <div class="container mt-5">
-        <h1 class="text-center text-white pt-5"> A fantastic place to learn XYZ! </h1>
-        <p class="text-justify text-center text-white pt-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio maxime cumque ex consectetur fugiat corrupti architecto, numquam reprehenderit animi sit! Doloremque velit veniam corporis labore qui suscipit, fugit accusantium cum.
-        Quae dolorum corrupti consectetur dolorem error, cumque maiores aperiam quos quod culpa dolore minus tempora possimus facere quasi aliquam et modi quis rerum eaque fugiat? Temporibus sunt harum sit veniam.
-        Aliquid, alias ducimus? Explicabo sit ex nihil laudantium eveniet, natus, doloribus esse voluptas vitae nobis fuga nulla officia atque itaque expedita incidunt accusamus aperiam quisquam id veritatis. Ab, labore perspiciatis.
-        Sapiente, veritatis corporis. Voluptas sint, reiciendis totam itaque quia libero dicta molestias aspernatur harum laboriosam cum quo commodi quam nemo! Quod dignissimos voluptatibus architecto a nesciunt maxime fuga similique alias!
-        Hic quo facere molestias. Illo aperiam, sapiente facere consectetur nam molestiae commodi quaerat nulla labore perspiciatis consequuntur laudantium tenetur architecto dolorum qui explicabo adipisci quam quos sint doloribus reprehenderit vero.</p>
-    </div> <!-- main container page-->
+    <!-- Carousel image slider-->
+    <div id="slides" class="carousel slide" style="width: 100%;" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/AppleAndBooks.jpg">
+                <div class="carousel-caption">
+                    <h1 class="display-2">A fantastic place to learn!</h1>
+                    <h3>Admissions open for September 2022</h3>
+                    <button type="button" onclick="location.href='admission/admission.html';" class="btn btn-outline-light btn-lg">Enrol here</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/class.jpg">
+            </div>
+            <div class="carousel-item">
+                <img src="images/Classroom.jpg">
+            </div>
+        </div>
+    </div>
 
+    <!-- Jumbotron -->
+    <div class="container-fluid">
+        <div class="row jumbotron">
+            <p class="lead"> with XYZ college, you can expect the very best!</p>
+        </div>
+    </div>
 
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-sm">
+                    <h2>Info</h2>
+                    <p>Phone Number: XXXXX XXX XXX</p>
+                    <address>
+                        Address: 123 XYZ Land, <br/>
+                        City of ABC, <br/>
+                        ZF1 2ZU, <br/>
+                        Cross Country Kingdom
+                    </address> 
+                    <p>Email address: <a href="mailto:info@XYZCollege.com">info@XYZCollege.com</a></p>
+                </div>
+                <div class="col-sm">
+                    <h2>Staff</h2>
+                    <p>Staff by department</p>
+                    <p>Email</p>
+                    <h2>Parents</h2>
+                    <p>Parent Portal</p>
+                    <p>Parent Portal User Guide</p>
+                </div>
+                <div class="col sm">
+                    <h2>Opening hours</h2>
+                    <p>Monday: 9am - 5pm</p>
+                    <p>Saturday: closed</p>
+                    <p>Sunday: closed</p>
+                </div>
+                <div class="col-sm">
+                    <h2>Students</h2>
+                    <p>Email</p>
+                    <p>Student Portal</p>
+                    <p>How to access your timetable</p>
+                    <p>Payment Portal</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
